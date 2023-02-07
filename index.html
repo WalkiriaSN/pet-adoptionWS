@@ -19,9 +19,9 @@
                 background-color: #f6f0e2;
             }
 
-            a:link{color: #eaaf22;}
-            a:visited{color: #8d6f45;}
-            a:hover{color: #274c29;}
+            a:link{color: #274c29;}
+            a:visited{color: #274c29;}
+            a:hover{color: #eaaf22;}
             a:active{color: #eaaf22;}
             
             a{
@@ -30,9 +30,11 @@
             }
 
             ul{
-                margin-top: 0;    
-                
+                margin-top: 0; 
+        
+                    
             }
+                
 
             header{
                 background-color: #739a75;
@@ -46,8 +48,10 @@
             }
       
             h1{
-                padding-bottom: .5em;
+                padding-bottom: 0;
+                padding-top: .6em;
                 font-family: Helvetica;
+                margin: 0;
             }
 
             li{
@@ -55,24 +59,34 @@
                 display: inline-block;
                 margin-right: 2em;
                 padding-top: .5em;
+    
             }
 
             p{
                 font-style: italic;
             }
 
+            .links{
+                background-color: #739a75;
+                text-align: right;
+            }
+
+            button{
+            background-color: #c1d8e2;
+            }
+
       </style>
     </head>
 
-    <body> <center>
+    <body> 
+        <center>
         <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="adopt.html">Adopt a Pet</a></li>
-        </ul>
-
         <h1>Welcome to Robogarden Pet Shelter</h1>
         </header>
+        <div class="links"><ul>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="adopt.html"><b>Adopt a Pet</b></a></li>
+        </ul></div><br>
         <p>We serve as home for hundreds of pets.</p>
 <br>
         <table>
@@ -113,6 +127,8 @@
                 <td>8</td>
                 <td>Male</td>
             </tr>
-        </table></center>
+        </table><br>
+    <a href="adopt.html"><button>Adopt a Pet</button></a>
+    </center>
     </body>
 </html>
